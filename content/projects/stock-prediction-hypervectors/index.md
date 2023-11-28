@@ -18,6 +18,9 @@ In this paper, a methodology for stock movement prediction using principal compo
 
 To implement this, the architecture will consist of four major components: data representation, feature extraction, hypervector encoding, and prediction. This architecture is illustrated below.
 
-<p align="center">
-	<img src="images/dark-mode-framework.png" width="500" height="334"/>
-</p>
+![Diagram of framework](images/dark-mode-framework.png)
+
+#### A. Data Representation
+
+The historical data of the S&P 500 index will be used for this study. Class labels will indicate the direction of stock movement, which will be determined by looking at the daily close prices of the index. Given close price $C_t$ for the $t$-th day, the assigned class label will be
+$$\begin{equation} y_t = \begin{cases} 1, & C_{t+1} > C_t, \\ 0, & \text{otherwise.} \end{cases}\end{equation}$$
