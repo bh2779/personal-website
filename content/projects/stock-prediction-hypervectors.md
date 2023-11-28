@@ -15,3 +15,7 @@ In particular, neural network architectures such as CNNs, RNNs, and LSTMs have s
 In this paper, a methodology for stock movement prediction using principal component analysis and hyperdimensional computing is proposed as an alternative to neural network-based methods. HDC is based around performing operations on high-dimensional vectors called hypervectors, which can represent multiple pieces of information within a single entity. If successful, this methodology will be able to achieve similar levels of success as state-of-the-art models with lower training times and higher transparency. Furthermore, HDC is more robust to hardware faults due to the large size of hypervectors, whereas traditional ANNs can be significantly impacted if errors such as bit flips cause changes in data representation. This study aims to create a design that combines the advantages of PCA in feature extraction with the advantages of HDC in classification.
 
 ### » Proposed Framework
+
+To implement this, the architecture will consist of four major components: data representation, feature extraction, hypervec- tor encoding, and prediction. This architecture is illustrated below.
+
+![image info](../images/dark-mode-framework.png)
