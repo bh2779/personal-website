@@ -18,4 +18,6 @@ In this paper, a methodology for stock movement prediction using principal compo
 
 To implement this, the architecture will consist of four major components: data representation, feature extraction, hypervec- tor encoding, and prediction. This architecture is illustrated below.
 
-![image info](../images/dark-mode-framework.png)
+{{ with .Resources.GetMatch "../images/dark-mode-framework.png" }}
+  <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}">
+{{ end }}
