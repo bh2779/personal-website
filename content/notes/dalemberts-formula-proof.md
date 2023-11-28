@@ -25,7 +25,7 @@ $$\frac{\partial}{\partial t}+c\frac{\partial}{\partial x} = c(\frac{\partial}{\
 Substituting in these values, we get
 $$u_{tt}-c^2u_{xx}=-4c^2\frac{\partial}{\partial\alpha} \frac{\partial}{\partial\beta}u$$
 We can conclude that
-$$u(\alpha,\beta)=A(\alpha_ + B(\beta)$$
+$$u(\alpha,\beta)=A(\alpha) + B(\beta)$$
 As a result, the general solution for $(1)$ is
 $$u(x,t) = f(x+ct) + g(x-ct)$$
 
