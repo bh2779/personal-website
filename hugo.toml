@@ -16,7 +16,7 @@ author = "Benjamin Hong"
 # license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
 description = "Benjamin Hong's personal website"
 keywords = "blog,developer,personal"
-info = ["Rising Junior @ Columbia University", "CS + Math"]
+info = ["Junior @ Columbia University", "CS + Math"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "bhong8989@gmail.com"
 dateFormat = "January 2, 2006"
