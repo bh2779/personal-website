@@ -42,7 +42,7 @@ $$H_s = \sum_{n=1}^N L_n^{q_n(x_s)} \qquad \forall s \in \{1,2,\ldots,S\}$$
 
 Finally, the class hypervectors can be constructed by summing together all of the hypervectors of the same class. Given a class $k$, its representative hypervector $\mathcal{C}_k$ will be calculated as
 
-$$C_k = \sum_{s=1}^S H_s I_k(H_s)$$
+$$\sum_{s=1}^S H_s I_k(H_s)$$
 
 where $I_k$ is the indicator function (i.e. $I_k(H_s)$ equals $1$ when $y_s=k$ and $0$ otherwise).
 
