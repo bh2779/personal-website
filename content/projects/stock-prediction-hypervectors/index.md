@@ -26,9 +26,10 @@ The historical data of the S&P 500 index will be used for this study. Class labe
 $$\begin{equation} y_t = \begin{cases} 1, & C_{t+1} > C_t, \\ 
 0, & \text{otherwise.} \end{cases}\end{equation}$$
 
-$$\begin{equation} y_t=   \left\{
-\begin{array}{ll}
+$$\begin{equation}
+y_t=
+	\left\{\begin{array}{ll}
       1 & C_{t+1} > C_t \\
-      0 & \text{otherwise} \\
-\end{array} 
-\right. \end{equation}$$
+      0 & \text{otherwise}
+	\end{array} \right.
+\end{equation}$$
